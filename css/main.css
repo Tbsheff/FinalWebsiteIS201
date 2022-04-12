@@ -15,3 +15,7 @@ ul li {
 #skill {
     padding-bottom: 1rem;
 }
+
+body {
+    background-color: gainsboro;
+}
