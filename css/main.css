@@ -17,5 +17,52 @@ ul li {
 }
 
 body {
-    background-color: gainsboro;
+    /* background-color: gainsboro;
+    background-image: url(../images/cool-background.png);
+     background-position: center;
+     /* Center the image */
+     /* background-repeat: no-repeat;
+     /* Do not repeat the image 
+     background-size: cover; */ 
+}
+
+body {
+    color: white;
+    background: linear-gradient(45deg, #5757D9 0%, #21D9F7 100%);
+    backgroundSize : "400% 400%";
+    animation : "gradient 25s ease infinite";
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+}
+
+.border-top {
+    border-top: none!important;
+}
+
+.tableau-grid {
+    /* display: flex;
+    max-width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 50%; */
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.tableauPlaceholder{
+    margin-top: 2rem;
 }
