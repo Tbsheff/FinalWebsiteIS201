@@ -1,4 +1,4 @@
-.exp{
+.exp {
     padding-top: 1.5rem;
     font-weight: bold;
 }
@@ -8,7 +8,8 @@ ul li {
     font-weight: normal;
 }
 
-#exp, #skill {
+#exp,
+#skill {
     padding-top: 2rem;
 }
 
@@ -21,48 +22,104 @@ body {
     background-image: url(../images/cool-background.png);
      background-position: center;
      /* Center the image */
-     /* background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
      /* Do not repeat the image 
-     background-size: cover; */ 
+     background-size: cover; */
 }
 
 body {
     color: white;
     background: linear-gradient(45deg, #5757D9 0%, #21D9F7 100%);
-    backgroundSize : "400% 400%";
-    animation : "gradient 25s ease infinite";
+    backgroundSize: "400% 400%";
+    animation: "gradient 25s ease infinite";
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
     }
 
-    @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
+    50% {
+        background-position: 100% 50%;
+    }
 
-        50% {
-            background-position: 100% 50%;
-        }
-
-        100% {
-            background-position: 0% 50%;
-        }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .border-top {
-    border-top: none!important;
+    border-top: none !important;
 }
 
-.tableau-grid {
-    /* display: flex;
-    max-width: 80%;
-    flex-direction: column;
+
+
+
+
+#sub {
+    line-height: 2rem;
+    padding-top: 1rem;
+}
+
+.navigate {
+    display: flex;
+    top: auto;
+    right: 4%;
+    justify-content: flex-end;
+}
+
+.container,
+.px-4,
+.px-lg-5 {
+    margin: 0 !important;
+}
+
+.foot {
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    left: 50%; */
-    margin-left: 10%;
-    margin-right: 10%;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
 
 }
 
-.tableauPlaceholder{
-    margin-top: 2rem;
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    max-width: 80%;
+}
+
+.resume-nav {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 4rem;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.resume-nav li a{
+    color: white;
+    font-size: 2rem;
+    transition: 300ms;
+}
+
+.resume-nav li:hover a {
+    color: rgb(43, 42, 42);
+}
+
+.contact {
+    text-align: center;
+    padding-top: 3rem;
 }

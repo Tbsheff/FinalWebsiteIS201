@@ -18,14 +18,15 @@
         href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
         rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="../css/styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/bootstyles.css">
 </head>
 
 <body>
     <!-- Navigation-->
+    
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
         <div class="container px-4 px-lg-5">
+            <div class="tab-nav">
             <a class="navbar-brand" href="../index.html">Tyler Sheffield</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,24 +35,26 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    <div class="tab-nav2">
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="Resume.html">Resume</a>
                     </li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="tableau.html">Tableau</a>
                     </li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="Aboutme.html">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+                    </div>
                 </ul>
             </div>
         </div>
     </nav>
+    </div>
     <!-- Page Header-->
     <header class="masthead" style="background-image: url('../assets/img/post-bg.jpg')">
         <div class="container position-relative px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <div class="post-heading">
-                        <h1>Tableau</h1>
+                        <h1 id="heading">Tableau</h1>
                         <span class="subheading"></span>
                     </div>
                 </div>
@@ -60,119 +63,127 @@
     </header>
     <!-- Post Content-->
     <div class="tableau-grid">
-    <div class='tableauPlaceholder' id='viz1649814487275' style='position: relative'><noscript><a href='#'><img
-                    alt='Sheet 1 '
-                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsbyState_16498131505220&#47;Sheet1&#47;1_rss.png'
-                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-            <param name='embed_code_version' value='3' />
-            <param name='path'
-                value='views&#47;ProfitsbyState_16498131505220&#47;Sheet1?:language=en-US&amp;:embed=true' />
-            <param name='toolbar' value='yes' />
-            <param name='static_image'
-                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsbyState_16498131505220&#47;Sheet1&#47;1.png' />
-            <param name='animate_transition' value='yes' />
-            <param name='display_static_image' value='yes' />
-            <param name='display_spinner' value='yes' />
-            <param name='display_overlay' value='yes' />
-            <param name='display_count' value='yes' />
-            <param name='language' value='en-US' /></object></div>
-    <script type='text/javascript'>
-        var divElement = document.getElementById('viz1649814487275');
-        var vizElement = divElement.getElementsByTagName('object')[0];
-        vizElement.style.width = '100%';
-        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-        var scriptElement = document.createElement('script');
-        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-        vizElement.parentNode.insertBefore(scriptElement, vizElement);
-    </script>
-    <div class='tableauPlaceholder' id='viz1649814584905' style='position: relative'><noscript><a href='#'><img
-                    alt='Profits in California 2013 -2014 '
-                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinCalifornia2013-2014_16498134802550&#47;Sheet2&#47;1_rss.png'
-                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-            <param name='embed_code_version' value='3' />
-            <param name='site_root' value='' />
-            <param name='name' value='ProfitsinCalifornia2013-2014_16498134802550&#47;Sheet2' />
-            <param name='tabs' value='no' />
-            <param name='toolbar' value='yes' />
-            <param name='static_image'
-                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinCalifornia2013-2014_16498134802550&#47;Sheet2&#47;1.png' />
-            <param name='animate_transition' value='yes' />
-            <param name='display_static_image' value='yes' />
-            <param name='display_spinner' value='yes' />
-            <param name='display_overlay' value='yes' />
-            <param name='display_count' value='yes' />
-            <param name='language' value='en-US' /></object></div>
-    <script type='text/javascript'>
-        var divElement = document.getElementById('viz1649814584905');
-        var vizElement = divElement.getElementsByTagName('object')[0];
-        vizElement.style.width = '100%';
-        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-        var scriptElement = document.createElement('script');
-        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-        vizElement.parentNode.insertBefore(scriptElement, vizElement);
-    </script>
-    <div class='tableauPlaceholder' id='viz1649814610822' style='position: relative'><noscript><a href='#'><img
-                    alt='Profits in California by Category  '
-                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinCaliforniabyCategory_16498139278980&#47;Sheet3&#47;1_rss.png'
-                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-            <param name='embed_code_version' value='3' />
-            <param name='site_root' value='' />
-            <param name='name' value='ProfitsinCaliforniabyCategory_16498139278980&#47;Sheet3' />
-            <param name='tabs' value='no' />
-            <param name='toolbar' value='yes' />
-            <param name='static_image'
-                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinCaliforniabyCategory_16498139278980&#47;Sheet3&#47;1.png' />
-            <param name='animate_transition' value='yes' />
-            <param name='display_static_image' value='yes' />
-            <param name='display_spinner' value='yes' />
-            <param name='display_overlay' value='yes' />
-            <param name='display_count' value='yes' />
-            <param name='language' value='en-US' /></object></div>
-    <script type='text/javascript'>
-        var divElement = document.getElementById('viz1649814610822');
-        var vizElement = divElement.getElementsByTagName('object')[0];
-        vizElement.style.width = '100%';
-        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-        var scriptElement = document.createElement('script');
-        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-        vizElement.parentNode.insertBefore(scriptElement, vizElement);
-    </script>
-    <div class='tableauPlaceholder' id='viz1649814625508' style='position: relative'><noscript><a href='#'><img
-                    alt='Forecasted Sales For Office Supplies in California Through November 2015 '
-                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;ForecastedSalesForOfficeSuppliesinCaliforniaThroughNovember2015&#47;Sheet4&#47;1_rss.png'
-                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-            <param name='embed_code_version' value='3' />
-            <param name='site_root' value='' />
-            <param name='name' value='ForecastedSalesForOfficeSuppliesinCaliforniaThroughNovember2015&#47;Sheet4' />
-            <param name='tabs' value='no' />
-            <param name='toolbar' value='yes' />
-            <param name='static_image'
-                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;ForecastedSalesForOfficeSuppliesinCaliforniaThroughNovember2015&#47;Sheet4&#47;1.png' />
-            <param name='animate_transition' value='yes' />
-            <param name='display_static_image' value='yes' />
-            <param name='display_spinner' value='yes' />
-            <param name='display_overlay' value='yes' />
-            <param name='display_count' value='yes' />
-            <param name='language' value='en-US' /></object></div>
-    <script type='text/javascript'>
-        var divElement = document.getElementById('viz1649814625508');
-        var vizElement = divElement.getElementsByTagName('object')[0];
-        vizElement.style.width = '100%';
-        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-        var scriptElement = document.createElement('script');
-        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-        vizElement.parentNode.insertBefore(scriptElement, vizElement);
-    </script>
-
+        <div class='tableauPlaceholder' id='viz1649814487275' style='position: relative'><noscript><a href='#'><img
+                        alt='Sheet 1 '
+                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsbyState_16498131505220&#47;Sheet1&#47;1_rss.png'
+                        style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='path'
+                    value='views&#47;ProfitsbyState_16498131505220&#47;Sheet1?:language=en-US&amp;:embed=true' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsbyState_16498131505220&#47;Sheet1&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' /></object>
+            <p class="captions">California is the most profitable state, while Texas is the least profitable</p>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1649814487275');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '100%';
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+        <div class='tableauPlaceholder' id='viz1649814584905' style='position: relative'><noscript><a href='#'><img
+                        alt='Profits in California 2013 -2014 '
+                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinCalifornia2013-2014_16498134802550&#47;Sheet2&#47;1_rss.png'
+                        style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='ProfitsinCalifornia2013-2014_16498134802550&#47;Sheet2' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinCalifornia2013-2014_16498134802550&#47;Sheet2&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' /></object>
+            <p class="captions">Profits for 2013 and 2014 peak at the end of the year</p>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1649814584905');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '100%';
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+        <div class='tableauPlaceholder' id='viz1649814610822' style='position: relative'><noscript><a href='#'><img
+                        alt='Profits in California by Category  '
+                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinCaliforniabyCategory_16498139278980&#47;Sheet3&#47;1_rss.png'
+                        style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='ProfitsinCaliforniabyCategory_16498139278980&#47;Sheet3' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinCaliforniabyCategory_16498139278980&#47;Sheet3&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' /></object>
+            <p class="captions">Office Supplies is the most profitable category in California</p>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1649814610822');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '100%';
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+        <div class='tableauPlaceholder' id='viz1649814625508' style='position: relative'><noscript><a href='#'><img
+                        alt='Forecasted Sales For Office Supplies in California Through November 2015 '
+                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;ForecastedSalesForOfficeSuppliesinCaliforniaThroughNovember2015&#47;Sheet4&#47;1_rss.png'
+                        style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='ForecastedSalesForOfficeSuppliesinCaliforniaThroughNovember2015&#47;Sheet4' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;ForecastedSalesForOfficeSuppliesinCaliforniaThroughNovember2015&#47;Sheet4&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' /></object>
+            <p class="captions">Estimated sales for each month through November 2015 are between -$1,000 and $9,000</p>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1649814625508');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '100%';
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
     <!-- Footer-->
     <footer class="border-top">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="col-md-10 col-lg-8 col-xl-7 foot">
                     <ul class="list-inline text-center">
                         <li class="list-inline-item">
                             <a href="#!">
@@ -199,11 +210,11 @@
                             </a>
                         </li>
                     </ul>
-                    
+                    <p class="foot">Copyright 2022 Tyler Sheffield</p>
                 </div>
             </div>
         </div>
-    </div>
+
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
