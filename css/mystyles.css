@@ -1,3 +1,9 @@
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .exp {
     padding-top: 1.5rem;
     font-weight: bold;
@@ -122,4 +128,58 @@ body {
 .contact {
     text-align: center;
     padding-top: 3rem;
+}
+
+.main-home {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+
+#img1 {
+    grid-column: 2 / 4;
+    grid-row: 1;
+    
+}
+
+#img2 {
+    grid-column: 2 / 4;
+    grid-row: 2;
+    height: 100%;
+}
+
+#img3 {
+    grid-column: 2 / 4;
+    grid-row: 3;
+    height: 100%;
+}
+
+aside{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: black;
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+
+button {
+    position: relative;
+    left: calc(50% - 99.4333px / 2);
+    margin-top: 2rem;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    padding: 0.1rem 0.3rem;
+    border: 1px solid white;
+}
+
+footer a:hover {
+    color: gray;
 }

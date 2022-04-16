@@ -1,3 +1,11 @@
+:root {
+    --burnt-sierra: #ee6c4d;
+    --slate: #293241;
+    --pale-cerulean: #98c1d9;
+    --prussian-blue: #3d5a80;
+}
+
+
 * {
     box-sizing: border-box;
 }
@@ -104,3 +112,64 @@ body {
 .nav-link:hover {
     color: gray;
 }
+
+button {
+    display: inline-block;
+    text-align: center;
+    background-color: var(--pale-cerulean);
+    color: var(--slate);
+    padding: 1em 1.5em;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-family: 'Fraunces', serif;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    transition: transform 300ms;
+}
+
+button a {
+    text-decoration: none;
+    color: var(--slate);
+    font-size: 1.3rem;
+}
+
+.button:hover,
+button:hover {
+    background-color: var(--burnt-sierra);
+    color: var(--slate);
+    transform: scale(0.8);
+    overflow: hidden;
+    text-decoration: none;
+    border: none;
+}
+
+#butt {
+    display: flex;
+    justify-content: center;
+}
+
+.list-inline-list, li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+}
+
